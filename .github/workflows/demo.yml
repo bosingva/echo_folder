@@ -1,0 +1,9 @@
+# .github/workflows/demo.yml
+name: Demo
+on:
+  workflow_dispatch:
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "I was triggered by Lambda 🎯"
