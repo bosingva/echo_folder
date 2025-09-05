@@ -5,6 +5,6 @@ on:
   workflow_dispatch:
 jobs:
   hello:
-    runs-on: [self-hosted, ghr, linux]
+    runs-on: [self-hosted,  linux]
     steps:
       - run: echo "I was triggered by Lambda 🎯"
